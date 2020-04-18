@@ -1,55 +1,45 @@
-.nav{
-
-    border-width:1px 0;
-    list-style:none;
-    margin:0;
-    padding:0;
-    text-align:center;
-    position: fixed;
-}
-.nav li{
-    display:inline;
-    list-style: none;
-}
-.nav a{
-    display:inline-block;
-    padding:10px;
-    color: lightskyblue;
-    text-decoration: none;
-    font-size: 20px;
-}
-.navRes{
-    position:relative;
-    top:12px;
-}
-body{
-    background-image: url("niagra_falls.JPG");
-    background-size: 1450px;
-    background-position: bottom 30%;
-    position: absolute;
-    background-repeat: no-repeat;
-    
+*{
+    margin: 0;
+    padding: 0;
 }
 main{
-    padding-top: 75px;
+    background-image: url(niagra_falls.JPG);
+    background-size: 1450px;
+    background-position: bottom 30%;
+    background-repeat: no-repeat;
+    position: absolute;
+    padding-top: 80px;
 }
-
-.intro{
-    color: white;
-    text-align: center;
-    font-size: 25px;
-    font-family: Lato;
-}
-.intro img{
+.profile_pic{
     width: 20%;
     height: 20%;
+    justify-content: center;
+    vertical-align: center;
     border-radius: 50%;
-    border: 2px solid brown;
+}
+.intro{
+    text-align: center;
+}
+.row{
+    display: block;
+}
+.important_things li{
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin: 5px 10px;
+    display:inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style-type: none;
     
 }
-.About_Me{
-    top: 200px;
+.important_things a{
+    text-decoration: none;
+    color: white;
+}
+#github_img{
     position: relative;
-    color: lightsteelblue;
-    border: 1px solid white;
+    bottom: 15px;
+}
+.Intro_Text{
+    color: white;
 }
