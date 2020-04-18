@@ -3,16 +3,28 @@
     padding: 0;
 }
 body{
+    margin: 0;
+    padding: 0;
+}
+
+.Main{
+    padding-top: 30px;
     background-image: url(niagra_falls.JPG);
     background-size: 1450px;
     background-position: bottom 30%;
     background-repeat: no-repeat;
     position: absolute;
-    margin: 0;
-    padding: 0;
+    display: block;
 }
-main{
+
+.About_Me{
+    background-image: url(toronto_streets.JPG);
+    background-size: cover;
+    background-position: bottom 50%;
+    background-repeat: no-repeat;
+    position: absolute;
     padding-top: 30px;
+    display: block;
 }
 /* Add a black background color to the top navigation */
 .topnav {
@@ -80,18 +92,22 @@ main{
 .row{
     display: block;
 }
-.important_things li{
-    padding-top: 10px;
-    padding-bottom: 2px;
-    margin: 5px 10px;
-    display:inline-block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    list-style-type: none;
-    
+
+.important_imgs img{
+    width:50px;
+    height: 50px
 }
-.important_things a{
-    text-decoration: none;
-    color: white;
+
+.important_imgs ul{
+    list-style: none;
+}
+
+.important_imgs li{
+    display:inline-block;
+}
+
+.important_imgs li:hover{
+    transform: scale(1.7);
 }
 #github_img{
     position: relative;
