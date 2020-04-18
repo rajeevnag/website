@@ -2,13 +2,68 @@
     margin: 0;
     padding: 0;
 }
-main{
+body{
     background-image: url(niagra_falls.JPG);
     background-size: 1450px;
     background-position: bottom 30%;
     background-repeat: no-repeat;
     position: absolute;
-    padding-top: 80px;
+    margin: 0;
+    padding: 0;
+}
+main{
+    padding-top: 30px;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    position: relative;
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    font-size: 30px;
+    color: white;
+  }
+  .topnav-centered a:hover{
+    background-color: #ddd;
+    color: black;
+  }
+  /* Centered section inside the top navigation */
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Right-aligned section inside the top navigation */
+  .topnav-right {
+    float: right;
+  }
+.welcome{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-bottom: 20px;
 }
 .profile_pic{
     width: 20%;
@@ -16,6 +71,8 @@ main{
     justify-content: center;
     vertical-align: center;
     border-radius: 50%;
+    margin-bottom: 10px;
+    border: 2px solid lightslategrey;
 }
 .intro{
     text-align: center;
@@ -42,4 +99,8 @@ main{
 }
 .Intro_Text{
     color: white;
+}
+.About_Me{
+    position: relative;
+    padding-top: 280px;;
 }
