@@ -5,33 +5,30 @@
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
-.Main{
+.Front{
     padding-top: 30px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
     background-image: url(niagra_falls.JPG);
-    background-size: 1450px;
+    background-size: cover;
     background-position: bottom 30%;
     background-repeat: no-repeat;
-    position: absolute;
-    display: block;
+    background-attachment: scroll;
 }
 
-.About_Me{
-    background-image: url(toronto_streets.JPG);
-    background-size: cover;
-    background-position: bottom 50%;
-    background-repeat: no-repeat;
-    position: absolute;
-    padding-top: 30px;
-    display: block;
-}
 /* Add a black background color to the top navigation */
 .topnav {
     position: relative;
     background-color: #333;
     overflow: hidden;
-  }
+}
   
   /* Style the links inside the navigation bar */
   .topnav a {
@@ -86,8 +83,12 @@ body{
     margin-bottom: 10px;
     border: 2px solid lightslategrey;
 }
-.intro{
+.intro {
     text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 .row{
     display: block;
@@ -117,6 +118,15 @@ body{
     color: white;
 }
 .About_Me{
-    position: relative;
-    padding-top: 280px;;
+    position: absolute;
+    display: block;
+    background-image: url(toronto_streets.JPG);
+    background-size: cover;
+    background-position: bottom 30%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    color: white;
+}
+.About_Me h1{
+    margin-bottom: 250px;
 }
