@@ -14,7 +14,7 @@
             </div>
 
             <!-- Left-aligned links (default) -->
-            <a href="#Start_About_Me">About Me</a>
+            <a href="#About_Me_Link">About Me</a>
 
             <!-- Right-aligned links -->
             <div class="topnav-right">
@@ -46,30 +46,46 @@
                 </div>
             </div>
         </div>
-        <div class="About_Me">
-            <div class="row">
-                <div class="About_Me_Half">
-                    <div class="Little_About_Me">
-                        <h1>A little bit about me...</h1>
+        <div class="page_2">
+            <div class="Little_About_Me"  >
+                <h1 id="About_Me_Link">A little bit about me...</h1>
+            </div>
+            <div class="About_Me">
+                <div class="row row_1">
+                    <div class="About_Me_Half">
+                        <div class="Self_Description">
+                            <p>I'm a sophomore computer science student studying at the University of Michigan.
+                            I'm currently 20 years old, and I've been programming for 1.5 years. 
+                        </div>
                     </div>
-                    <div class="Self_Description">
-                        <p>I'm a sophomore computer science student studying at the University of Michigan.
-                        I'm currently 20 years old, and I've been programming for 1.5 years. 
-                        <p>I came into UofM intending to do electrical engineering, but in my first semester 
-                            I took an intro engineering class with the
-                            final project being to design and program a drone to fly through a given course autonomously.</p> 
-                            <p>As a result, I quickly fell in love with coding.</p>
+                    <div class="About_Me_Half">
+                        <div class="UofM_Logo">
+                            <a href="https://umich.edu" target="_blank">
+                                <img src="block_m.png" id="block_m" alt="UofM logo">
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="About_Me_Half">
-                    <div class="Drone_Info">
-                        <!-- 320 w 240 h -->
-                        <p>First coding project ever</p>
-                        <video width= "320px" height= "240" src="drone.mov" controls>Your browser doesn't support this video type.</video>
-                        <p id = "drone_caption">(It was pretty basic C++ code as it was a first semester freshman course,
-                            but I still thought it was awesome)</p>
-                        
+                <div class="row row_2">
+                    <div class="About_Me_Half">
+                        <div class="Self_Description">
+                            <p>I originally wanted to do Electrical Engineering, but during my first semester I took a class centered around
+                                building and programming a drone to fly autonomously through a course, and I was instantly hooked on programming.
+                            </p>
+                        </div>
                     </div>
+                    <div class="About_Me_Half">
+                        <div class="Drone_Video">
+                            <video controls>
+                                <source src="drone.mov" type="video/mp4">
+                                Your Browswer does not support this video.
+                            </video>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="row row_3">
+                    <p>Keep scrolling to see some projects I've done since then!</p>
                 </div>
             </div>
         </div>
