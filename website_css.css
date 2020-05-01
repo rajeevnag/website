@@ -9,7 +9,11 @@ body{
     height: 100vh;
     display: block;
 }
+html{
+    background-color:rgb(174,174,174);
+    background-size: cover
 
+}
 .Front{
     padding-top: 30px;
     display: block;
@@ -88,7 +92,7 @@ body{
     display: block;
 }
 .row{
-    display: block;
+    display: flex;
 }
 
 .important_imgs img{
@@ -117,29 +121,80 @@ body{
 .Intro_Text{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: white solid 5px;
 }
 .Intro_Text h1{
     margin-top: 20px;
 }
-/* .About_Me{
-    display: block;
+.About_Me{
+    display: flex;
     background-image: url(toronto_streets.JPG);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
+
     color: white;
     width: 100%;
     height: 100vh;
     position: relative;
-} */
+    text-align: center;
+}
 
 .About_Me_Half{
-    font-size: large;
-    display: table-cell;
+    margin-top: 25px;
+    display: inline-block;
     width: 50%;
-    display: absolute;
+    height: 100vh;
+    border: black solid 2px;
+    text-align: center;
+    
 }
-/* .About_Me video{
-    display: block;
-} */
+.Little_About_Me{
+    margin-left: 10px;
+    
+    text-align: left;
+}
+.Self_Description{
+    margin-left: 10px;
+    margin-top: 50px;
+    font-size: 30px;
+    
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    display: inline-block;
+}
+.Drone_Info{
+    margin-top: 125px;
+    width: 70%;
+    display: inline-block;
+    border: white solid 1px;
+    text-align: center;
+}
+
+
+.Drone_Info p{
+    font-size: 20px;
+    margin-bottom:5px;
+    height: 20%;
+    width: 85%;
+    
+}
+.Drone_Info video{
+    display: inline-block;
+    height: 60;
+    width: 85%;
+    margin: 0;
+    bottom: 30px;
+}
+#drone_caption{
+    background-color: lightskyblue;
+    display: inline-block;
+    height: 25%;
+    width: 85%;
+    text-align: center;
+    margin: 0;
+    font-size: 15px;
+    top: 50px;
+}
+
+
