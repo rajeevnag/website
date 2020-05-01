@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: block;
 }
 
@@ -14,7 +14,7 @@ body{
     padding-top: 30px;
     display: block;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     position: relative;
     background-image: url(niagra_falls.JPG);
     background-size: cover;
@@ -69,10 +69,7 @@ body{
     float: right;
   }
 .welcome{
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: white;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .profile_pic{
     width: 20%;
@@ -105,7 +102,10 @@ body{
 
 .important_imgs li{
     display:inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
 
 .important_imgs li:hover{
     transform: scale(1.7);
@@ -116,17 +116,30 @@ body{
 }
 .Intro_Text{
     color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: white solid 5px;
 }
-.About_Me{
-    position: absolute;
+.Intro_Text h1{
+    margin-top: 20px;
+}
+/* .About_Me{
     display: block;
     background-image: url(toronto_streets.JPG);
     background-size: cover;
-    background-position: bottom 30%;
     background-repeat: no-repeat;
     background-attachment: scroll;
     color: white;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+} */
+
+.About_Me_Half{
+    font-size: large;
+    display: table-cell;
+    width: 50%;
+    display: absolute;
 }
-.About_Me h1{
-    margin-bottom: 250px;
-}
+/* .About_Me video{
+    display: block;
+} */
