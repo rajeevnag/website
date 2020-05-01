@@ -127,7 +127,7 @@ html{
     margin-top: 1%;
 }
 .page_2{
-    background-image: url(toronto_streets_blur.JPG);
+    background-image: url(toronto_streets_blur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
@@ -198,8 +198,6 @@ html{
     align-items: center;
     justify-content: center;
     position: relative;
-    
-    
 }
 .Drone_Video video{
     width: 40%;
