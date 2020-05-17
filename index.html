@@ -2,6 +2,7 @@
 <html>
     <head>
         <link href="website_css.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="app.js"> </script>
     </head>
     <body>
         <header>
@@ -24,18 +25,19 @@
         </div>
         <div class="Front">
             <div class="intro">
-                <img src="me.JPG" class="profile_pic">
-
+                <div class="mainPicWrapper">
+                    <img src="./images/me.JPG" class="profile_pic" onclick="changeProfilePicture()" id="mainPic">
+                </div>
                 <div class="important_imgs">
                     <ul class="links">
                         <li><a href="https://drive.google.com/file/d/1RlT1mTeBiW_psZXiFwL6ixUfSiSvnY5-/view?usp=sharing" target="_blank">
-                            <img src="resume.png" alt="Resume" >
+                            <img src="./images/resume.png" alt="Resume" >
                         </a></li>
                         <li><a href="https://linkedin.com/in/rnag" target="_blank">
-                            <img src="linkedin.png" alt="LinkedIn">
+                            <img src="./images/linkedin.png" alt="LinkedIn">
                         </a></li>
                         <li><a href="https://github.com/rnag" target="_blank">
-                            <img src="GitHub_Logo_White.png" alt="Github" width="40" >
+                            <img src="./images/GitHub_Logo_White.png" alt="Github" width="40" >
                         </a></li>
                     </ul>
                 </div>
@@ -61,7 +63,7 @@
                     <div class="About_Me_Half">
                         <div class="UofM_Logo">
                             <a href="https://umich.edu" target="_blank">
-                                <img src="block_m.png" id="block_m" alt="UofM logo">
+                                <img src="./images/block_m.png" id="block_m" alt="UofM logo">
                             </a>
                         </div>
                     </div>
@@ -77,7 +79,7 @@
                     <div class="About_Me_Half">
                         <div class="Drone_Video">
                             <video controls>
-                                <source src="drone.mov" type="video/mp4">
+                                <source src="./images/drone.mov" type="video/mp4">
                                 Your Browswer does not support this video.
                             </video>
                         </div>
@@ -88,6 +90,9 @@
                     <p>Keep scrolling to see some projects I've done since then!</p>
                 </div>
             </div>
+        </div>
+        <div class="page_3">
+
         </div>
     </body>
 </html>
