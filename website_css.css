@@ -108,6 +108,7 @@ html{
     
 }
 
+
 .important_imgs img{
     width:50px;
     height: 50px
@@ -132,8 +133,10 @@ html{
     bottom: 15px;
 }
 .Intro_Text{
+    display: block;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 20vh;
 }
 .Intro_Text h1{
     margin-top: 1%;
@@ -143,6 +146,7 @@ html{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
+    height: 100vh;
 }
 .Little_About_Me{
     text-align: left;
@@ -155,6 +159,7 @@ html{
     margin-bottom: 3%;
     color: lightskyblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 .About_Me{
     color: white;
@@ -166,14 +171,12 @@ html{
 }
 .About_Me_Half{
     width:50%;
-    
+    min-width: 100px;
     display: flex;
     text-align: center;
 }
 .About_Me_Half p{
-    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
 }
 
 #block_m{
@@ -192,6 +195,28 @@ html{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 4vh;
+}
+@media screen and (max-width: 1000px) {
+    div.Self_Description{
+      font-size: 20px;
+    }
+  }
+@media screen and (max-height: 1000px) {
+    div.Self_Description{
+        font-size: 20px;
+    }
+}
+@media screen and (max-height: 500px) {
+    div.body{
+        font-size: 2px;
+    }
+}
+@media screen and (max-width: 900px) {
+    div.footer{
+      font-size: 10px;
+    }
+
 }
 .row_1{
     width:100%;
@@ -216,21 +241,40 @@ html{
 }
 .row_3{
     width: 100%;
-    height: 25%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 27%;
 }
 .row_3 p{
-    font-size: 45px;
-    position: relative;
-    top: 40px;
+    font-size: 35px;
 }
-.page_3{
-    border: white solid 2px;
-    height: 100vh;
+.footer{
+    width: 100%;
+    background-color: dimgray;
+    height: 11%;
+}
+.contact_me a{
+    color: white;
+    font-weight: bold;
+}
+.contact_me{
+    display: block;
+    width: 100vw;
+    padding: 5% 0;
+}
+#rnagcopyright{
+    margin-top: 6.6%;
+    margin-left: 1%;
+}
+#backToTop{
+    margin-left: 86%;
+    margin-top: 6.6%;
+    margin-right: 2%;
+}
+#backToTop a{
+    color: lightskyblue
+}
 
-}
+
+
 
 
 
